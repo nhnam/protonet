@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B69C22017C5FB8600BD285B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B69C21F17C5FB8600BD285B /* Foundation.framework */; };
+		7B69C23117C5FBCE00BD285B /* ExampleProto.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7B69C22F17C5FBCE00BD285B /* ExampleProto.pb.cc */; };
+		7B69C23417C602F500BD285B /* SocketHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B69C23317C5FC0500BD285B /* SocketHandler.mm */; };
+		D2FA54B33493421DBF91EBFF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 088066C9A30241BB8C2CAF79 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B69C21A17C5FB8600BD285B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		088066C9A30241BB8C2CAF79 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E66826790C498892A23663 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		7B69C21C17C5FB8600BD285B /* libprotonet-objc-test-common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libprotonet-objc-test-common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B69C21F17C5FB8600BD285B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B69C22317C5FB8600BD285B /* protonet-objc-test-common-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "protonet-objc-test-common-Prefix.pch"; sourceTree = "<group>"; };
+		7B69C22F17C5FBCE00BD285B /* ExampleProto.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExampleProto.pb.cc; sourceTree = "<group>"; };
+		7B69C23017C5FBCE00BD285B /* ExampleProto.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleProto.pb.h; sourceTree = "<group>"; };
+		7B69C23217C5FC0500BD285B /* SocketHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketHandler.h; sourceTree = "<group>"; };
+		7B69C23317C5FC0500BD285B /* SocketHandler.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SocketHandler.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B69C21917C5FB8600BD285B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B69C22017C5FB8600BD285B /* Foundation.framework in Frameworks */,
+				D2FA54B33493421DBF91EBFF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B69C21317C5FB8600BD285B = {
+			isa = PBXGroup;
+			children = (
+				7B69C22117C5FB8600BD285B /* protonet-objc-test-common */,
+				7B69C21E17C5FB8600BD285B /* Frameworks */,
+				7B69C21D17C5FB8600BD285B /* Products */,
+				59E66826790C498892A23663 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		7B69C21D17C5FB8600BD285B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B69C21C17C5FB8600BD285B /* libprotonet-objc-test-common.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B69C21E17C5FB8600BD285B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B69C21F17C5FB8600BD285B /* Foundation.framework */,
+				088066C9A30241BB8C2CAF79 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B69C22117C5FB8600BD285B /* protonet-objc-test-common */ = {
+			isa = PBXGroup;
+			children = (
+				7B69C23217C5FC0500BD285B /* SocketHandler.h */,
+				7B69C23317C5FC0500BD285B /* SocketHandler.mm */,
+				7B69C22F17C5FBCE00BD285B /* ExampleProto.pb.cc */,
+				7B69C23017C5FBCE00BD285B /* ExampleProto.pb.h */,
+				7B69C22217C5FB8600BD285B /* Supporting Files */,
+			);
+			path = "protonet-objc-test-common";
+			sourceTree = "<group>";
+		};
+		7B69C22217C5FB8600BD285B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B69C22317C5FB8600BD285B /* protonet-objc-test-common-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B69C21B17C5FB8600BD285B /* protonet-objc-test-common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B69C22A17C5FB8600BD285B /* Build configuration list for PBXNativeTarget "protonet-objc-test-common" */;
+			buildPhases = (
+				030B4000DB38495EB44B8D8D /* Check Pods Manifest.lock */,
+				7B69C21817C5FB8600BD285B /* Sources */,
+				7B69C21917C5FB8600BD285B /* Frameworks */,
+				7B69C21A17C5FB8600BD285B /* CopyFiles */,
+				1B71EBB97854471393BEA035 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "protonet-objc-test-common";
+			productName = "protonet-objc-test-common";
+			productReference = 7B69C21C17C5FB8600BD285B /* libprotonet-objc-test-common.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B69C21417C5FB8600BD285B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexey Kuznetsov";
+			};
+			buildConfigurationList = 7B69C21717C5FB8600BD285B /* Build configuration list for PBXProject "protonet-objc-test-common" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B69C21317C5FB8600BD285B;
+			productRefGroup = 7B69C21D17C5FB8600BD285B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B69C21B17C5FB8600BD285B /* protonet-objc-test-common */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030B4000DB38495EB44B8D8D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1B71EBB97854471393BEA035 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B69C21817C5FB8600BD285B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B69C23117C5FBCE00BD285B /* ExampleProto.pb.cc in Sources */,
+				7B69C23417C602F500BD285B /* SocketHandler.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B69C22817C5FB8600BD285B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B69C22917C5FB8600BD285B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B69C22B17C5FB8600BD285B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E66826790C498892A23663 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/protonet_objc_test_common.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "protonet-objc-test-common/protonet-objc-test-common-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/protobuf\"",
+					"\"${PODS_ROOT}/Headers/CocoaAsyncSocket\"",
+					"\"${PODS_ROOT}/Headers/protonet",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/protonet-objc-test-common-dyfbepnttzooqkhdctvyrncrrnpv/Build/Products/Debug-iphoneos\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7B69C22C17C5FB8600BD285B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E66826790C498892A23663 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/protonet_objc_test_common.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "protonet-objc-test-common/protonet-objc-test-common-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/protobuf\"",
+					"\"${PODS_ROOT}/Headers/CocoaAsyncSocket\"",
+					"\"${PODS_ROOT}/Headers/protonet",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/protonet-objc-test-common-dyfbepnttzooqkhdctvyrncrrnpv/Build/Products/Debug-iphoneos\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B69C21717C5FB8600BD285B /* Build configuration list for PBXProject "protonet-objc-test-common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B69C22817C5FB8600BD285B /* Debug */,
+				7B69C22917C5FB8600BD285B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B69C22A17C5FB8600BD285B /* Build configuration list for PBXNativeTarget "protonet-objc-test-common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B69C22B17C5FB8600BD285B /* Debug */,
+				7B69C22C17C5FB8600BD285B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B69C21417C5FB8600BD285B /* Project object */;
+}
