@@ -1,0 +1,45 @@
+package com.github.axet.protonet.test;
+
+message Card {
+  enum Suits {
+    CLUBS = 0;
+    DIAMONDS = 1;
+    HEARTS = 2;
+    SPADES = 3;
+  }
+
+  enum Types {
+    CARD2 = 2;
+    CARD3 = 3;
+    CARD4 = 4;
+    CARD5 = 5;
+    CARD6 = 6;
+    CARD7 = 7;
+    CARD8 = 8;
+    CARD9 = 9;
+    CARD10 = 10;
+    JACK = 11;
+    QUEEN = 12;
+    KING = 13;
+    ACE = 14;
+  }
+  
+  required Suits suit = 1;
+  required Types type = 2;
+}
+
+message HandRequest {
+  repeated Card cards = 1;
+  required bool show = 2;
+}
+
+message HandRespond {
+}
+
+message SeatTakeRequest {
+  required bool take = 1;
+}
+
+message SeatTakeRespond {
+  required bool taken = 1;
+}
