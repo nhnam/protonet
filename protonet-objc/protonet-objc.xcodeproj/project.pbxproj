@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B1429FE17CCA580007D0DBC /* ProtoNetDiscoveryService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B1429FD17CCA580007D0DBC /* ProtoNetDiscoveryService.mm */; };
 		7B39729A17C5F6BE00BA6F99 /* ProtoNetHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B39729917C5F6BE00BA6F99 /* ProtoNetHandler.mm */; };
 		7B97638717C533F400396C37 /* ProtoNetDiscovery.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67B3017C520F100E3C70D /* ProtoNetDiscovery.mm */; };
 		7B97638817C533FA00396C37 /* ProtoNetSocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67B2E17C520F100E3C70D /* ProtoNetSocket.mm */; };
@@ -29,8 +30,10 @@
 /* Begin PBXFileReference section */
 		2FD2D1D3B1944145AD38F751 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C968DF936E4EC1AAD0928C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		7B1429FD17CCA580007D0DBC /* ProtoNetDiscoveryService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProtoNetDiscoveryService.mm; sourceTree = "<group>"; };
 		7B39729817C5F6BE00BA6F99 /* ProtoNetHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoNetHandler.h; sourceTree = "<group>"; };
 		7B39729917C5F6BE00BA6F99 /* ProtoNetHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProtoNetHandler.mm; sourceTree = "<group>"; };
+		7B5F1C3A17CCA37A00F9B71C /* ProtoNetDiscoveryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoNetDiscoveryService.h; sourceTree = "<group>"; };
 		7B69C23517C6056300BD285B /* ProtoNetDiscoveryDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoNetDiscoveryDelegate.h; sourceTree = "<group>"; };
 		7BD5821517C5209300D41E93 /* libprotonet-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libprotonet-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD5821817C5209300D41E93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,8 @@
 				7BF67B2F17C520F100E3C70D /* ProtoNetDiscovery.h */,
 				7BF67B3017C520F100E3C70D /* ProtoNetDiscovery.mm */,
 				7B69C23517C6056300BD285B /* ProtoNetDiscoveryDelegate.h */,
+				7B5F1C3A17CCA37A00F9B71C /* ProtoNetDiscoveryService.h */,
+				7B1429FD17CCA580007D0DBC /* ProtoNetDiscoveryService.mm */,
 				7BF67B2D17C520F100E3C70D /* ProtoNetSocket.h */,
 				7BF67B2E17C520F100E3C70D /* ProtoNetSocket.mm */,
 				7BF67B3317C5235000E3C70D /* ProtoNetSocketDelegate.h */,
@@ -197,6 +202,7 @@
 				7B97638717C533F400396C37 /* ProtoNetDiscovery.mm in Sources */,
 				7B39729A17C5F6BE00BA6F99 /* ProtoNetHandler.mm in Sources */,
 				7B97638817C533FA00396C37 /* ProtoNetSocket.mm in Sources */,
+				7B1429FE17CCA580007D0DBC /* ProtoNetDiscoveryService.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

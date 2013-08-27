@@ -60,8 +60,9 @@
 }
 
 - (void)netServiceBrowser:(NSNetServiceBrowser *)serviceBrowser didFindService:(NSNetService *)service moreComing:(BOOL)moreComing {
-
     [service resolveWithTimeout: 1];
+
+    ProtoNetDiscoveryService *s = [[ProtoNetDiscoveryService alloc] initWithAddress:[self address:service] port:service.port];
     
     [self.services addObject:service];
     if(!moreComing) {
@@ -69,14 +70,16 @@
     }
     
     if (delegate)
-        [delegate addService:[self address:service] port:service.port moreComing:moreComing];
+        [delegate addService:s moreComing:moreComing];
 }
 
 - (void)netServiceBrowser:(NSNetServiceBrowser *)serviceBrowser didRemoveService:(NSNetService *)service moreComing:(BOOL)moreComing {
     [self.services removeObject:service];
     
+    ProtoNetDiscoveryService *s = [[ProtoNetDiscoveryService alloc] initWithAddress:[self address:service] port:service.port];
+
     if (delegate)
-        [delegate removeService:[self address:service] port:service.port moreComing:moreComing];
+        [delegate removeService:s moreComing:moreComing];
 }
 
 - (void)netServiceBrowserDidStopSearch:(NSNetServiceBrowser *)serviceBrowser {
