@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/axet/protonet"
   s.license      = { :type => 'LGPL3.0', :file => 'lgpl-3.0.txt' }
 	s.author       = { "Alexey Kuznetsov" => "axet@me.com" } 
-  s.source       = { :git => "https://github.com/axet/protonet.git", :commit => "d1beef0bdc7c3b68c5e050c716cf1da29da91850" }
+  s.source       = { :git => "https://github.com/axet/protonet.git", :commit => "34422f9c664e78c2d5ce67d8a3b01081d34de53d" }
   s.platform     = :ios, '5.0'
   s.public_header_files = 'protonet-objc/**/*.h'
   s.source_files = 'protonet-objc/**/*.{h,mm}'
