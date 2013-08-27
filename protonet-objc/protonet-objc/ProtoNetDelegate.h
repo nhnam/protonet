@@ -4,7 +4,7 @@
 
 #include <google/protobuf/message.h>
 
-@protocol ProtoNetSocketDelegate <NSObject>
+@protocol ProtoNetDelegate <NSObject>
 
 - (void)process:(::google::protobuf::Message*) message;
 

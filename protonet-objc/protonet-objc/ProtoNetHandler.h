@@ -8,11 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "ProtoNetSocketDelegate.h"
+#import "ProtoNetDelegate.h"
 
-#import "ProtoNetHandlerDelegate.h"
-
-@interface ProtoNetHandler : NSObject<ProtoNetSocketDelegate> {
+@interface ProtoNetHandler : NSObject<ProtoNetDelegate> {
     NSMutableDictionary* _commands;
 }
 

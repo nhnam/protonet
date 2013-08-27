@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import "GCDAsyncSocket.h"
-#import "ProtoNetSocketDelegate.h"
+#import "ProtoNetDelegate.h"
 
 @interface ProtoNetSocket : NSObject {
     NSMutableDictionary* _commands;
@@ -21,9 +21,9 @@
 
 - (id)init;
 
-- (void)addListener:(id<ProtoNetSocketDelegate>) delegate;
+- (void)addListener:(id<ProtoNetDelegate>) delegate;
 
-- (void)removeListener:(id<ProtoNetSocketDelegate>) delegate;
+- (void)removeListener:(id<ProtoNetDelegate>) delegate;
 
 - (void)install:(::google::protobuf::Message *)m;
 

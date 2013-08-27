@@ -38,12 +38,11 @@
 		7BD5821517C5209300D41E93 /* libprotonet-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libprotonet-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD5821817C5209300D41E93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BD5821C17C5209400D41E93 /* protonet-objc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "protonet-objc-Prefix.pch"; sourceTree = "<group>"; };
-		7BE0F7F017C606A300E086E8 /* ProtoNetHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoNetHandlerDelegate.h; sourceTree = "<group>"; };
 		7BF67B2D17C520F100E3C70D /* ProtoNetSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoNetSocket.h; sourceTree = "<group>"; };
 		7BF67B2E17C520F100E3C70D /* ProtoNetSocket.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ProtoNetSocket.mm; sourceTree = "<group>"; };
 		7BF67B2F17C520F100E3C70D /* ProtoNetDiscovery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoNetDiscovery.h; sourceTree = "<group>"; };
 		7BF67B3017C520F100E3C70D /* ProtoNetDiscovery.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ProtoNetDiscovery.mm; sourceTree = "<group>"; };
-		7BF67B3317C5235000E3C70D /* ProtoNetSocketDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoNetSocketDelegate.h; sourceTree = "<group>"; };
+		7BF67B3317C5235000E3C70D /* ProtoNetDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoNetDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +95,9 @@
 				7B1429FD17CCA580007D0DBC /* ProtoNetDiscoveryService.mm */,
 				7BF67B2D17C520F100E3C70D /* ProtoNetSocket.h */,
 				7BF67B2E17C520F100E3C70D /* ProtoNetSocket.mm */,
-				7BF67B3317C5235000E3C70D /* ProtoNetSocketDelegate.h */,
+				7BF67B3317C5235000E3C70D /* ProtoNetDelegate.h */,
 				7B39729817C5F6BE00BA6F99 /* ProtoNetHandler.h */,
 				7B39729917C5F6BE00BA6F99 /* ProtoNetHandler.mm */,
-				7BE0F7F017C606A300E086E8 /* ProtoNetHandlerDelegate.h */,
 				7BD5821B17C5209400D41E93 /* Supporting Files */,
 			);
 			path = "protonet-objc";

@@ -35,12 +35,12 @@
     [super dealloc];
 }
 
-- (void)addListener:(id<ProtoNetSocketDelegate>) delegate
+- (void)addListener:(id<ProtoNetDelegate>) delegate
 {
     [_listneners addObject: delegate];
 }
 
-- (void)removeListener:(id<ProtoNetSocketDelegate>) delegate
+- (void)removeListener:(id<ProtoNetDelegate>) delegate
 {
     [_listneners removeObject: delegate];
 }
@@ -59,7 +59,7 @@
 {
     NSLog(@"disconnected");
 
-    for(id<ProtoNetSocketDelegate> delegate in _listneners)
+    for(id<ProtoNetDelegate> delegate in _listneners)
     {
         [delegate disconnect];
     }
@@ -144,7 +144,7 @@
         default:
         {
             int type = tag - BODY_TAG;
-            for(id<ProtoNetSocketDelegate> delegate in _listneners) {
+            for(id<ProtoNetDelegate> delegate in _listneners) {
                 ::google::protobuf::Message *msg = [self read: type data: data];
                 [delegate process: msg];
             }
