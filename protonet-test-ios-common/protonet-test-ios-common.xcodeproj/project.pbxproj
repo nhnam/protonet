@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B2B9B5517CCEC3E0014EDE1 /* ExampleProto.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B9B5017CCEC3E0014EDE1 /* ExampleProto.pb.cc */; };
+		7B2B9B5617CCEC3E0014EDE1 /* SocketHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B9B5417CCEC3E0014EDE1 /* SocketHandler.mm */; };
 		7B69C22017C5FB8600BD285B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B69C21F17C5FB8600BD285B /* Foundation.framework */; };
-		7B69C23117C5FBCE00BD285B /* ExampleProto.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7B69C22F17C5FBCE00BD285B /* ExampleProto.pb.cc */; };
-		7B69C23417C602F500BD285B /* SocketHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B69C23317C5FC0500BD285B /* SocketHandler.mm */; };
 		D2FA54B33493421DBF91EBFF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 088066C9A30241BB8C2CAF79 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -28,13 +28,13 @@
 /* Begin PBXFileReference section */
 		088066C9A30241BB8C2CAF79 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E66826790C498892A23663 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
-		7B69C21C17C5FB8600BD285B /* libprotonet-objc-test-common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libprotonet-objc-test-common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2B9B5017CCEC3E0014EDE1 /* ExampleProto.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExampleProto.pb.cc; path = "protonet-test-ios-common/ExampleProto.pb.cc"; sourceTree = SOURCE_ROOT; };
+		7B2B9B5117CCEC3E0014EDE1 /* ExampleProto.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleProto.pb.h; path = "protonet-test-ios-common/ExampleProto.pb.h"; sourceTree = SOURCE_ROOT; };
+		7B2B9B5217CCEC3E0014EDE1 /* protonet-test-ios-common-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "protonet-test-ios-common-Prefix.pch"; path = "protonet-test-ios-common/protonet-test-ios-common-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7B2B9B5317CCEC3E0014EDE1 /* SocketHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketHandler.h; path = "protonet-test-ios-common/SocketHandler.h"; sourceTree = SOURCE_ROOT; };
+		7B2B9B5417CCEC3E0014EDE1 /* SocketHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SocketHandler.mm; path = "protonet-test-ios-common/SocketHandler.mm"; sourceTree = SOURCE_ROOT; };
+		7B69C21C17C5FB8600BD285B /* libprotonet-test-ios-common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libprotonet-test-ios-common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B69C21F17C5FB8600BD285B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7B69C22317C5FB8600BD285B /* protonet-objc-test-common-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "protonet-objc-test-common-Prefix.pch"; sourceTree = "<group>"; };
-		7B69C22F17C5FBCE00BD285B /* ExampleProto.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExampleProto.pb.cc; sourceTree = "<group>"; };
-		7B69C23017C5FBCE00BD285B /* ExampleProto.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleProto.pb.h; sourceTree = "<group>"; };
-		7B69C23217C5FC0500BD285B /* SocketHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketHandler.h; sourceTree = "<group>"; };
-		7B69C23317C5FC0500BD285B /* SocketHandler.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SocketHandler.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 		7B69C21317C5FB8600BD285B = {
 			isa = PBXGroup;
 			children = (
-				7B69C22117C5FB8600BD285B /* protonet-objc-test-common */,
+				7B69C22117C5FB8600BD285B /* protonet-test-ios-common */,
 				7B69C21E17C5FB8600BD285B /* Frameworks */,
 				7B69C21D17C5FB8600BD285B /* Products */,
 				59E66826790C498892A23663 /* Pods.xcconfig */,
@@ -63,7 +63,7 @@
 		7B69C21D17C5FB8600BD285B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B69C21C17C5FB8600BD285B /* libprotonet-objc-test-common.a */,
+				7B69C21C17C5FB8600BD285B /* libprotonet-test-ios-common.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,22 +77,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7B69C22117C5FB8600BD285B /* protonet-objc-test-common */ = {
+		7B69C22117C5FB8600BD285B /* protonet-test-ios-common */ = {
 			isa = PBXGroup;
 			children = (
-				7B69C23217C5FC0500BD285B /* SocketHandler.h */,
-				7B69C23317C5FC0500BD285B /* SocketHandler.mm */,
-				7B69C22F17C5FBCE00BD285B /* ExampleProto.pb.cc */,
-				7B69C23017C5FBCE00BD285B /* ExampleProto.pb.h */,
+				7B2B9B5017CCEC3E0014EDE1 /* ExampleProto.pb.cc */,
+				7B2B9B5117CCEC3E0014EDE1 /* ExampleProto.pb.h */,
+				7B2B9B5317CCEC3E0014EDE1 /* SocketHandler.h */,
+				7B2B9B5417CCEC3E0014EDE1 /* SocketHandler.mm */,
 				7B69C22217C5FB8600BD285B /* Supporting Files */,
 			);
+			name = "protonet-test-ios-common";
 			path = "protonet-objc-test-common";
 			sourceTree = "<group>";
 		};
 		7B69C22217C5FB8600BD285B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7B69C22317C5FB8600BD285B /* protonet-objc-test-common-Prefix.pch */,
+				7B2B9B5217CCEC3E0014EDE1 /* protonet-test-ios-common-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -100,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B69C21B17C5FB8600BD285B /* protonet-objc-test-common */ = {
+		7B69C21B17C5FB8600BD285B /* protonet-test-ios-common */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B69C22A17C5FB8600BD285B /* Build configuration list for PBXNativeTarget "protonet-objc-test-common" */;
+			buildConfigurationList = 7B69C22A17C5FB8600BD285B /* Build configuration list for PBXNativeTarget "protonet-test-ios-common" */;
 			buildPhases = (
 				030B4000DB38495EB44B8D8D /* Check Pods Manifest.lock */,
 				7B69C21817C5FB8600BD285B /* Sources */,
@@ -114,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = "protonet-objc-test-common";
+			name = "protonet-test-ios-common";
 			productName = "protonet-objc-test-common";
-			productReference = 7B69C21C17C5FB8600BD285B /* libprotonet-objc-test-common.a */;
+			productReference = 7B69C21C17C5FB8600BD285B /* libprotonet-test-ios-common.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +129,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Alexey Kuznetsov";
 			};
-			buildConfigurationList = 7B69C21717C5FB8600BD285B /* Build configuration list for PBXProject "protonet-objc-test-common" */;
+			buildConfigurationList = 7B69C21717C5FB8600BD285B /* Build configuration list for PBXProject "protonet-test-ios-common" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -140,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B69C21B17C5FB8600BD285B /* protonet-objc-test-common */,
+				7B69C21B17C5FB8600BD285B /* protonet-test-ios-common */,
 			);
 		};
 /* End PBXProject section */
@@ -183,8 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B69C23117C5FBCE00BD285B /* ExampleProto.pb.cc in Sources */,
-				7B69C23417C602F500BD285B /* SocketHandler.mm in Sources */,
+				7B2B9B5517CCEC3E0014EDE1 /* ExampleProto.pb.cc in Sources */,
+				7B2B9B5617CCEC3E0014EDE1 /* SocketHandler.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +249,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/protonet_objc_test_common.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "protonet-objc-test-common/protonet-objc-test-common-Prefix.pch";
+				GCC_PREFIX_HEADER = "protonet-objc-test-common/protonet-test-ios-common-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"${PODS_ROOT}/Headers/protobuf\"",
 					"\"${PODS_ROOT}/Headers/CocoaAsyncSocket\"",
@@ -259,7 +260,7 @@
 					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/protonet-objc-test-common-dyfbepnttzooqkhdctvyrncrrnpv/Build/Products/Debug-iphoneos\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "protonet-test-ios-common";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -270,7 +271,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/protonet_objc_test_common.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "protonet-objc-test-common/protonet-objc-test-common-Prefix.pch";
+				GCC_PREFIX_HEADER = "protonet-objc-test-common/protonet-test-ios-common-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"${PODS_ROOT}/Headers/protobuf\"",
 					"\"${PODS_ROOT}/Headers/CocoaAsyncSocket\"",
@@ -281,7 +282,7 @@
 					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/protonet-objc-test-common-dyfbepnttzooqkhdctvyrncrrnpv/Build/Products/Debug-iphoneos\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "protonet-test-ios-common";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -289,7 +290,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B69C21717C5FB8600BD285B /* Build configuration list for PBXProject "protonet-objc-test-common" */ = {
+		7B69C21717C5FB8600BD285B /* Build configuration list for PBXProject "protonet-test-ios-common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B69C22817C5FB8600BD285B /* Debug */,
@@ -298,7 +299,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B69C22A17C5FB8600BD285B /* Build configuration list for PBXNativeTarget "protonet-objc-test-common" */ = {
+		7B69C22A17C5FB8600BD285B /* Build configuration list for PBXNativeTarget "protonet-test-ios-common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B69C22B17C5FB8600BD285B /* Debug */,

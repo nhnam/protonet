@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:protonet-objc-test-common.xcodeproj">
+      location = "self:protonet-test-ios-common.xcodeproj">
    </FileRef>
 </Workspace>

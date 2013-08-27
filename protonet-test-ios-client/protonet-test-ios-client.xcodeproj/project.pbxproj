@@ -8,44 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		5478B18C2EDA429099245D1D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D764BECF5AF54F7D92BABFD9 /* libPods.a */; };
-		7B15F00917C61092002CC464 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F00617C61092002CC464 /* Default-568h@2x.png */; };
-		7B15F00A17C61092002CC464 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F00717C61092002CC464 /* Default.png */; };
-		7B15F00B17C61092002CC464 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F00817C61092002CC464 /* Default@2x.png */; };
-		7B15F00E17C610BA002CC464 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F00C17C610BA002CC464 /* InfoPlist.strings */; };
-		7B15F01117C610C4002CC464 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F00F17C610C4002CC464 /* MainStoryboard_iPhone.storyboard */; };
-		7B15F01417C610D7002CC464 /* JoinViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B15F01317C610D7002CC464 /* JoinViewController.mm */; };
-		7B15F01717C610DD002CC464 /* TablesViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B15F01617C610DD002CC464 /* TablesViewController.mm */; };
-		7B15F01A17C610E4002CC464 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B15F01917C610E4002CC464 /* AppDelegate.mm */; };
-		7B15F01C17C610F4002CC464 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B15F01B17C610F4002CC464 /* main.mm */; };
-		7B15F01F17C61100002CC464 /* protonet-objc-test-client-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F01D17C61100002CC464 /* protonet-objc-test-client-Info.plist */; };
 		7B4F41B21779B0BA007A73C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F41B11779B0BA007A73C0 /* UIKit.framework */; };
 		7B4F41B41779B0BA007A73C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F41B31779B0BA007A73C0 /* Foundation.framework */; };
 		7B4F41B61779B0BA007A73C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F41B51779B0BA007A73C0 /* CoreGraphics.framework */; };
 		7BBAD2BC178DB022004EE49D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBAD2BB178DB022004EE49D /* QuartzCore.framework */; };
+		7BBFA1BC17CCEC7D00F8DD60 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBFA1B917CCEC7D00F8DD60 /* Default-568h@2x.png */; };
+		7BBFA1BD17CCEC7D00F8DD60 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBFA1BA17CCEC7D00F8DD60 /* Default.png */; };
+		7BBFA1BE17CCEC7D00F8DD60 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBFA1BB17CCEC7D00F8DD60 /* Default@2x.png */; };
+		7BBFA1C017CCEC8700F8DD60 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFA1BF17CCEC8700F8DD60 /* main.mm */; };
+		7BBFA1C317CCECAD00F8DD60 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBFA1C117CCECAD00F8DD60 /* MainStoryboard_iPhone.storyboard */; };
+		7BBFA1C617CCECB900F8DD60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BBFA1C417CCECB900F8DD60 /* InfoPlist.strings */; };
+		7BBFA1C917CCECCD00F8DD60 /* protonet-test-ios-client-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BBFA1C717CCECCD00F8DD60 /* protonet-test-ios-client-Info.plist */; };
+		7BBFA1CC17CCECF700F8DD60 /* TablesViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFA1CB17CCECF700F8DD60 /* TablesViewController.mm */; };
+		7BBFA1CF17CCECFF00F8DD60 /* JoinViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFA1CE17CCECFF00F8DD60 /* JoinViewController.mm */; };
+		7BBFA1D217CCED0600F8DD60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFA1D117CCED0600F8DD60 /* AppDelegate.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B15F00617C61092002CC464 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "protonet-objc-test-client/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
-		7B15F00717C61092002CC464 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "protonet-objc-test-client/Default.png"; sourceTree = SOURCE_ROOT; };
-		7B15F00817C61092002CC464 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "protonet-objc-test-client/Default@2x.png"; sourceTree = SOURCE_ROOT; };
-		7B15F00D17C610BA002CC464 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "protonet-objc-test-client/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
-		7B15F01017C610C4002CC464 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "protonet-objc-test-client/en.lproj/MainStoryboard_iPhone.storyboard"; sourceTree = SOURCE_ROOT; };
-		7B15F01217C610D7002CC464 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoinViewController.h; path = "protonet-objc-test-client/JoinViewController.h"; sourceTree = SOURCE_ROOT; };
-		7B15F01317C610D7002CC464 /* JoinViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JoinViewController.mm; path = "protonet-objc-test-client/JoinViewController.mm"; sourceTree = SOURCE_ROOT; };
-		7B15F01517C610DD002CC464 /* TablesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TablesViewController.h; path = "protonet-objc-test-client/TablesViewController.h"; sourceTree = SOURCE_ROOT; };
-		7B15F01617C610DD002CC464 /* TablesViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TablesViewController.mm; path = "protonet-objc-test-client/TablesViewController.mm"; sourceTree = SOURCE_ROOT; };
-		7B15F01817C610E4002CC464 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "protonet-objc-test-client/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
-		7B15F01917C610E4002CC464 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "protonet-objc-test-client/AppDelegate.mm"; sourceTree = SOURCE_ROOT; };
-		7B15F01B17C610F4002CC464 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = "protonet-objc-test-client/main.mm"; sourceTree = SOURCE_ROOT; };
-		7B15F01D17C61100002CC464 /* protonet-objc-test-client-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "protonet-objc-test-client-Info.plist"; path = "protonet-objc-test-client/protonet-objc-test-client-Info.plist"; sourceTree = SOURCE_ROOT; };
-		7B15F01E17C61100002CC464 /* protonet-objc-test-client-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "protonet-objc-test-client-Prefix.pch"; path = "protonet-objc-test-client/protonet-objc-test-client-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		7B4F41AE1779B0BA007A73C0 /* protonet-objc-test-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "protonet-objc-test-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4F41AE1779B0BA007A73C0 /* protonet-test-ios-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "protonet-test-ios-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4F41B11779B0BA007A73C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7B4F41B31779B0BA007A73C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7B4F41B51779B0BA007A73C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7B4F41D81779B0BA007A73C0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7BB773F517CBFAB3003B4F7A /* libprotonet-objc-test-common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libprotonet-objc-test-common.a"; path = "../protonet-objc-test-common/build/Release-iphoneos/libprotonet-objc-test-common.a"; sourceTree = "<group>"; };
 		7BBAD2BB178DB022004EE49D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7BBFA1B917CCEC7D00F8DD60 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "protonet-test-ios-client/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		7BBFA1BA17CCEC7D00F8DD60 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "protonet-test-ios-client/Default.png"; sourceTree = SOURCE_ROOT; };
+		7BBFA1BB17CCEC7D00F8DD60 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "protonet-test-ios-client/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		7BBFA1BF17CCEC8700F8DD60 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = "protonet-test-ios-client/main.mm"; sourceTree = SOURCE_ROOT; };
+		7BBFA1C217CCECAD00F8DD60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "protonet-test-ios-client/en.lproj/MainStoryboard_iPhone.storyboard"; sourceTree = SOURCE_ROOT; };
+		7BBFA1C517CCECB900F8DD60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "protonet-test-ios-client/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		7BBFA1C717CCECCD00F8DD60 /* protonet-test-ios-client-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "protonet-test-ios-client-Info.plist"; path = "protonet-test-ios-client/protonet-test-ios-client-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7BBFA1C817CCECCD00F8DD60 /* protonet-test-ios-client-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "protonet-test-ios-client-Prefix.pch"; path = "protonet-test-ios-client/protonet-test-ios-client-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7BBFA1CA17CCECF700F8DD60 /* TablesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TablesViewController.h; path = "protonet-test-ios-client/TablesViewController.h"; sourceTree = SOURCE_ROOT; };
+		7BBFA1CB17CCECF700F8DD60 /* TablesViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TablesViewController.mm; path = "protonet-test-ios-client/TablesViewController.mm"; sourceTree = SOURCE_ROOT; };
+		7BBFA1CD17CCECFF00F8DD60 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoinViewController.h; path = "protonet-test-ios-client/JoinViewController.h"; sourceTree = SOURCE_ROOT; };
+		7BBFA1CE17CCECFF00F8DD60 /* JoinViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JoinViewController.mm; path = "protonet-test-ios-client/JoinViewController.mm"; sourceTree = SOURCE_ROOT; };
+		7BBFA1D017CCED0600F8DD60 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "protonet-test-ios-client/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		7BBFA1D117CCED0600F8DD60 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "protonet-test-ios-client/AppDelegate.mm"; sourceTree = SOURCE_ROOT; };
 		CE5D2957F52A4C08A4E12542 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		D764BECF5AF54F7D92BABFD9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,7 +81,7 @@
 		7B4F41AF1779B0BA007A73C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B4F41AE1779B0BA007A73C0 /* protonet-objc-test-client.app */,
+				7B4F41AE1779B0BA007A73C0 /* protonet-test-ios-client.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,13 +101,13 @@
 		7B4F41B71779B0BA007A73C0 /* protonet-objc-test-client */ = {
 			isa = PBXGroup;
 			children = (
-				7B15F01817C610E4002CC464 /* AppDelegate.h */,
-				7B15F01917C610E4002CC464 /* AppDelegate.mm */,
-				7B15F01517C610DD002CC464 /* TablesViewController.h */,
-				7B15F01617C610DD002CC464 /* TablesViewController.mm */,
-				7B15F01217C610D7002CC464 /* JoinViewController.h */,
-				7B15F01317C610D7002CC464 /* JoinViewController.mm */,
-				7B15F00F17C610C4002CC464 /* MainStoryboard_iPhone.storyboard */,
+				7BBFA1D017CCED0600F8DD60 /* AppDelegate.h */,
+				7BBFA1D117CCED0600F8DD60 /* AppDelegate.mm */,
+				7BBFA1CA17CCECF700F8DD60 /* TablesViewController.h */,
+				7BBFA1CB17CCECF700F8DD60 /* TablesViewController.mm */,
+				7BBFA1CD17CCECFF00F8DD60 /* JoinViewController.h */,
+				7BBFA1CE17CCECFF00F8DD60 /* JoinViewController.mm */,
+				7BBFA1C117CCECAD00F8DD60 /* MainStoryboard_iPhone.storyboard */,
 				7B4F41B81779B0BA007A73C0 /* Supporting Files */,
 			);
 			name = "protonet-objc-test-client";
@@ -117,13 +117,13 @@
 		7B4F41B81779B0BA007A73C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7B15F01D17C61100002CC464 /* protonet-objc-test-client-Info.plist */,
-				7B15F01E17C61100002CC464 /* protonet-objc-test-client-Prefix.pch */,
-				7B15F00C17C610BA002CC464 /* InfoPlist.strings */,
-				7B15F01B17C610F4002CC464 /* main.mm */,
-				7B15F00617C61092002CC464 /* Default-568h@2x.png */,
-				7B15F00717C61092002CC464 /* Default.png */,
-				7B15F00817C61092002CC464 /* Default@2x.png */,
+				7BBFA1C717CCECCD00F8DD60 /* protonet-test-ios-client-Info.plist */,
+				7BBFA1C817CCECCD00F8DD60 /* protonet-test-ios-client-Prefix.pch */,
+				7BBFA1C417CCECB900F8DD60 /* InfoPlist.strings */,
+				7BBFA1BF17CCEC8700F8DD60 /* main.mm */,
+				7BBFA1B917CCEC7D00F8DD60 /* Default-568h@2x.png */,
+				7BBFA1BA17CCEC7D00F8DD60 /* Default.png */,
+				7BBFA1BB17CCEC7D00F8DD60 /* Default@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B4F41AD1779B0BA007A73C0 /* protonet-objc-test-client */ = {
+		7B4F41AD1779B0BA007A73C0 /* protonet-test-ios-client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B4F41E91779B0BA007A73C0 /* Build configuration list for PBXNativeTarget "protonet-objc-test-client" */;
+			buildConfigurationList = 7B4F41E91779B0BA007A73C0 /* Build configuration list for PBXNativeTarget "protonet-test-ios-client" */;
 			buildPhases = (
 				83632EDF273E45249B5856B6 /* Check Pods Manifest.lock */,
 				7B4F41AA1779B0BA007A73C0 /* Sources */,
@@ -145,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = "protonet-objc-test-client";
+			name = "protonet-test-ios-client";
 			productName = "poker-hand";
-			productReference = 7B4F41AE1779B0BA007A73C0 /* protonet-objc-test-client.app */;
+			productReference = 7B4F41AE1779B0BA007A73C0 /* protonet-test-ios-client.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +159,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Alexey Kuznetsov";
 			};
-			buildConfigurationList = 7B4F41A91779B0BA007A73C0 /* Build configuration list for PBXProject "protonet-objc-test-client" */;
+			buildConfigurationList = 7B4F41A91779B0BA007A73C0 /* Build configuration list for PBXProject "protonet-test-ios-client" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B4F41AD1779B0BA007A73C0 /* protonet-objc-test-client */,
+				7B4F41AD1779B0BA007A73C0 /* protonet-test-ios-client */,
 			);
 		};
 /* End PBXProject section */
@@ -181,12 +181,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B15F00917C61092002CC464 /* Default-568h@2x.png in Resources */,
-				7B15F00A17C61092002CC464 /* Default.png in Resources */,
-				7B15F00B17C61092002CC464 /* Default@2x.png in Resources */,
-				7B15F00E17C610BA002CC464 /* InfoPlist.strings in Resources */,
-				7B15F01117C610C4002CC464 /* MainStoryboard_iPhone.storyboard in Resources */,
-				7B15F01F17C61100002CC464 /* protonet-objc-test-client-Info.plist in Resources */,
+				7BBFA1BC17CCEC7D00F8DD60 /* Default-568h@2x.png in Resources */,
+				7BBFA1BD17CCEC7D00F8DD60 /* Default.png in Resources */,
+				7BBFA1BE17CCEC7D00F8DD60 /* Default@2x.png in Resources */,
+				7BBFA1C317CCECAD00F8DD60 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7BBFA1C617CCECB900F8DD60 /* InfoPlist.strings in Resources */,
+				7BBFA1C917CCECCD00F8DD60 /* protonet-test-ios-client-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,30 +230,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B15F01417C610D7002CC464 /* JoinViewController.mm in Sources */,
-				7B15F01717C610DD002CC464 /* TablesViewController.mm in Sources */,
-				7B15F01A17C610E4002CC464 /* AppDelegate.mm in Sources */,
-				7B15F01C17C610F4002CC464 /* main.mm in Sources */,
+				7BBFA1C017CCEC8700F8DD60 /* main.mm in Sources */,
+				7BBFA1CC17CCECF700F8DD60 /* TablesViewController.mm in Sources */,
+				7BBFA1CF17CCECFF00F8DD60 /* JoinViewController.mm in Sources */,
+				7BBFA1D217CCED0600F8DD60 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7B15F00C17C610BA002CC464 /* InfoPlist.strings */ = {
+		7BBFA1C117CCECAD00F8DD60 /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7B15F00D17C610BA002CC464 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7B15F00F17C610C4002CC464 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B15F01017C610C4002CC464 /* en */,
+				7BBFA1C217CCECAD00F8DD60 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7BBFA1C417CCECB900F8DD60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BBFA1C517CCECB900F8DD60 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -324,14 +324,14 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "protonet-objc-test-client/protonet-objc-test-client-Prefix.pch";
+				GCC_PREFIX_HEADER = "protonet-objc-test-client/protonet-test-ios-client-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"${SRCROOT}/Pods/Headers/protonet-objc-test-common",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "protonet-objc-test-client/protonet-objc-test-client-Info.plist";
+				INFOPLIST_FILE = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Users/axet/source/protonet/protonet/protonet-test-ios-client/protonet-objc-test-client/protonet-test-ios-client-Info.plist";
 				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_NAME = "protonet-objc-test-client";
+				PRODUCT_NAME = "protonet-test-ios-client";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -344,14 +344,14 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "protonet-objc-test-client/protonet-objc-test-client-Prefix.pch";
+				GCC_PREFIX_HEADER = "protonet-objc-test-client/protonet-test-ios-client-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"${SRCROOT}/Pods/Headers/protonet-objc-test-common",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "protonet-objc-test-client/protonet-objc-test-client-Info.plist";
+				INFOPLIST_FILE = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Users/axet/source/protonet/protonet/protonet-test-ios-client/protonet-objc-test-client/protonet-test-ios-client-Info.plist";
 				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_NAME = "protonet-objc-test-client";
+				PRODUCT_NAME = "protonet-test-ios-client";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -360,7 +360,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B4F41A91779B0BA007A73C0 /* Build configuration list for PBXProject "protonet-objc-test-client" */ = {
+		7B4F41A91779B0BA007A73C0 /* Build configuration list for PBXProject "protonet-test-ios-client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B4F41E71779B0BA007A73C0 /* Debug */,
@@ -369,7 +369,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B4F41E91779B0BA007A73C0 /* Build configuration list for PBXNativeTarget "protonet-objc-test-client" */ = {
+		7B4F41E91779B0BA007A73C0 /* Build configuration list for PBXNativeTarget "protonet-test-ios-client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B4F41EA1779B0BA007A73C0 /* Debug */,
