@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5478B18C2EDA429099245D1D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D764BECF5AF54F7D92BABFD9 /* libPods.a */; };
+		7B15F00917C61092002CC464 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F00617C61092002CC464 /* Default-568h@2x.png */; };
+		7B15F00A17C61092002CC464 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F00717C61092002CC464 /* Default.png */; };
+		7B15F00B17C61092002CC464 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F00817C61092002CC464 /* Default@2x.png */; };
+		7B15F00E17C610BA002CC464 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F00C17C610BA002CC464 /* InfoPlist.strings */; };
+		7B15F01117C610C4002CC464 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F00F17C610C4002CC464 /* MainStoryboard_iPhone.storyboard */; };
+		7B15F01417C610D7002CC464 /* JoinViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B15F01317C610D7002CC464 /* JoinViewController.mm */; };
+		7B15F01717C610DD002CC464 /* TablesViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B15F01617C610DD002CC464 /* TablesViewController.mm */; };
+		7B15F01A17C610E4002CC464 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B15F01917C610E4002CC464 /* AppDelegate.mm */; };
+		7B15F01C17C610F4002CC464 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B15F01B17C610F4002CC464 /* main.mm */; };
+		7B15F01F17C61100002CC464 /* protonet-objc-test-client-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B15F01D17C61100002CC464 /* protonet-objc-test-client-Info.plist */; };
+		7B4F41B21779B0BA007A73C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F41B11779B0BA007A73C0 /* UIKit.framework */; };
+		7B4F41B41779B0BA007A73C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F41B31779B0BA007A73C0 /* Foundation.framework */; };
+		7B4F41B61779B0BA007A73C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F41B51779B0BA007A73C0 /* CoreGraphics.framework */; };
+		7BBAD2BC178DB022004EE49D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBAD2BB178DB022004EE49D /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B15F00617C61092002CC464 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "protonet-objc-test-client/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		7B15F00717C61092002CC464 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "protonet-objc-test-client/Default.png"; sourceTree = SOURCE_ROOT; };
+		7B15F00817C61092002CC464 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "protonet-objc-test-client/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		7B15F00D17C610BA002CC464 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "protonet-objc-test-client/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		7B15F01017C610C4002CC464 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "protonet-objc-test-client/en.lproj/MainStoryboard_iPhone.storyboard"; sourceTree = SOURCE_ROOT; };
+		7B15F01217C610D7002CC464 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoinViewController.h; path = "protonet-objc-test-client/JoinViewController.h"; sourceTree = SOURCE_ROOT; };
+		7B15F01317C610D7002CC464 /* JoinViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JoinViewController.mm; path = "protonet-objc-test-client/JoinViewController.mm"; sourceTree = SOURCE_ROOT; };
+		7B15F01517C610DD002CC464 /* TablesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TablesViewController.h; path = "protonet-objc-test-client/TablesViewController.h"; sourceTree = SOURCE_ROOT; };
+		7B15F01617C610DD002CC464 /* TablesViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TablesViewController.mm; path = "protonet-objc-test-client/TablesViewController.mm"; sourceTree = SOURCE_ROOT; };
+		7B15F01817C610E4002CC464 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "protonet-objc-test-client/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		7B15F01917C610E4002CC464 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "protonet-objc-test-client/AppDelegate.mm"; sourceTree = SOURCE_ROOT; };
+		7B15F01B17C610F4002CC464 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = "protonet-objc-test-client/main.mm"; sourceTree = SOURCE_ROOT; };
+		7B15F01D17C61100002CC464 /* protonet-objc-test-client-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "protonet-objc-test-client-Info.plist"; path = "protonet-objc-test-client/protonet-objc-test-client-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7B15F01E17C61100002CC464 /* protonet-objc-test-client-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "protonet-objc-test-client-Prefix.pch"; path = "protonet-objc-test-client/protonet-objc-test-client-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7B4F41AE1779B0BA007A73C0 /* protonet-objc-test-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "protonet-objc-test-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4F41B11779B0BA007A73C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B4F41B31779B0BA007A73C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B4F41B51779B0BA007A73C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B4F41D81779B0BA007A73C0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7BB773F517CBFAB3003B4F7A /* libprotonet-objc-test-common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libprotonet-objc-test-common.a"; path = "../protonet-objc-test-common/build/Release-iphoneos/libprotonet-objc-test-common.a"; sourceTree = "<group>"; };
+		7BBAD2BB178DB022004EE49D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE5D2957F52A4C08A4E12542 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		D764BECF5AF54F7D92BABFD9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B4F41AB1779B0BA007A73C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBAD2BC178DB022004EE49D /* QuartzCore.framework in Frameworks */,
+				7B4F41B21779B0BA007A73C0 /* UIKit.framework in Frameworks */,
+				7B4F41B41779B0BA007A73C0 /* Foundation.framework in Frameworks */,
+				7B4F41B61779B0BA007A73C0 /* CoreGraphics.framework in Frameworks */,
+				5478B18C2EDA429099245D1D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B4F41A51779B0BA007A73C0 = {
+			isa = PBXGroup;
+			children = (
+				7BB773F517CBFAB3003B4F7A /* libprotonet-objc-test-common.a */,
+				7B4F41B01779B0BA007A73C0 /* Frameworks */,
+				7B4F41B71779B0BA007A73C0 /* protonet-objc-test-client */,
+				7B4F41AF1779B0BA007A73C0 /* Products */,
+				7BBAD2BB178DB022004EE49D /* QuartzCore.framework */,
+				CE5D2957F52A4C08A4E12542 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		7B4F41AF1779B0BA007A73C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F41AE1779B0BA007A73C0 /* protonet-objc-test-client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B4F41B01779B0BA007A73C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F41B11779B0BA007A73C0 /* UIKit.framework */,
+				7B4F41B31779B0BA007A73C0 /* Foundation.framework */,
+				7B4F41B51779B0BA007A73C0 /* CoreGraphics.framework */,
+				7B4F41D81779B0BA007A73C0 /* SenTestingKit.framework */,
+				D764BECF5AF54F7D92BABFD9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B4F41B71779B0BA007A73C0 /* protonet-objc-test-client */ = {
+			isa = PBXGroup;
+			children = (
+				7B15F01817C610E4002CC464 /* AppDelegate.h */,
+				7B15F01917C610E4002CC464 /* AppDelegate.mm */,
+				7B15F01517C610DD002CC464 /* TablesViewController.h */,
+				7B15F01617C610DD002CC464 /* TablesViewController.mm */,
+				7B15F01217C610D7002CC464 /* JoinViewController.h */,
+				7B15F01317C610D7002CC464 /* JoinViewController.mm */,
+				7B15F00F17C610C4002CC464 /* MainStoryboard_iPhone.storyboard */,
+				7B4F41B81779B0BA007A73C0 /* Supporting Files */,
+			);
+			name = "protonet-objc-test-client";
+			path = "poker-hand";
+			sourceTree = "<group>";
+		};
+		7B4F41B81779B0BA007A73C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B15F01D17C61100002CC464 /* protonet-objc-test-client-Info.plist */,
+				7B15F01E17C61100002CC464 /* protonet-objc-test-client-Prefix.pch */,
+				7B15F00C17C610BA002CC464 /* InfoPlist.strings */,
+				7B15F01B17C610F4002CC464 /* main.mm */,
+				7B15F00617C61092002CC464 /* Default-568h@2x.png */,
+				7B15F00717C61092002CC464 /* Default.png */,
+				7B15F00817C61092002CC464 /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B4F41AD1779B0BA007A73C0 /* protonet-objc-test-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4F41E91779B0BA007A73C0 /* Build configuration list for PBXNativeTarget "protonet-objc-test-client" */;
+			buildPhases = (
+				83632EDF273E45249B5856B6 /* Check Pods Manifest.lock */,
+				7B4F41AA1779B0BA007A73C0 /* Sources */,
+				7B4F41AB1779B0BA007A73C0 /* Frameworks */,
+				7B4F41AC1779B0BA007A73C0 /* Resources */,
+				AB069B07E788417FB3365F2E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "protonet-objc-test-client";
+			productName = "poker-hand";
+			productReference = 7B4F41AE1779B0BA007A73C0 /* protonet-objc-test-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B4F41A61779B0BA007A73C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexey Kuznetsov";
+			};
+			buildConfigurationList = 7B4F41A91779B0BA007A73C0 /* Build configuration list for PBXProject "protonet-objc-test-client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B4F41A51779B0BA007A73C0;
+			productRefGroup = 7B4F41AF1779B0BA007A73C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B4F41AD1779B0BA007A73C0 /* protonet-objc-test-client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B4F41AC1779B0BA007A73C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B15F00917C61092002CC464 /* Default-568h@2x.png in Resources */,
+				7B15F00A17C61092002CC464 /* Default.png in Resources */,
+				7B15F00B17C61092002CC464 /* Default@2x.png in Resources */,
+				7B15F00E17C610BA002CC464 /* InfoPlist.strings in Resources */,
+				7B15F01117C610C4002CC464 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7B15F01F17C61100002CC464 /* protonet-objc-test-client-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83632EDF273E45249B5856B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB069B07E788417FB3365F2E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B4F41AA1779B0BA007A73C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B15F01417C610D7002CC464 /* JoinViewController.mm in Sources */,
+				7B15F01717C610DD002CC464 /* TablesViewController.mm in Sources */,
+				7B15F01A17C610E4002CC464 /* AppDelegate.mm in Sources */,
+				7B15F01C17C610F4002CC464 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B15F00C17C610BA002CC464 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B15F00D17C610BA002CC464 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B15F00F17C610C4002CC464 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B15F01017C610C4002CC464 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B4F41E71779B0BA007A73C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B4F41E81779B0BA007A73C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B4F41EA1779B0BA007A73C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5D2957F52A4C08A4E12542 /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "protonet-objc-test-client/protonet-objc-test-client-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Pods/Headers/protonet-objc-test-common",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "protonet-objc-test-client/protonet-objc-test-client-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "protonet-objc-test-client";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B4F41EB1779B0BA007A73C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5D2957F52A4C08A4E12542 /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "protonet-objc-test-client/protonet-objc-test-client-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/Pods/Headers/protonet-objc-test-common",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "protonet-objc-test-client/protonet-objc-test-client-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "protonet-objc-test-client";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B4F41A91779B0BA007A73C0 /* Build configuration list for PBXProject "protonet-objc-test-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4F41E71779B0BA007A73C0 /* Debug */,
+				7B4F41E81779B0BA007A73C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B4F41E91779B0BA007A73C0 /* Build configuration list for PBXNativeTarget "protonet-objc-test-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4F41EA1779B0BA007A73C0 /* Debug */,
+				7B4F41EB1779B0BA007A73C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B4F41A61779B0BA007A73C0 /* Project object */;
+}

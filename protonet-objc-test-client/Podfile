@@ -1,0 +1,4 @@
+platform :ios, '5.0'
+pod 'protobuf', :path => '../protobuf-2.5.0'
+pod 'protonet', :path => '../protonet-objc'
+pod 'protonet-objc-test-common', :path => '../protonet-objc-test-common'

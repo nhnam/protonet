@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="pea-dO-lKK">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Join View Controller-->
+        <scene sceneID="yhA-gG-YVG">
+            <objects>
+                <tableViewController id="1Go-Kl-a6t" userLabel="Join View Controller" customClass="TablesViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="ufC-Ho-PdI">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PokerTableCell" id="OiE-fA-MpB">
+                                <rect key="frame" x="0.0" y="46" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="10" y="1" width="280" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="2X1-Bd-9f7" kind="push" identifier="TablesJoinSegue" id="tJ3-pX-91P"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1Go-Kl-a6t" id="K1c-7s-nfl"/>
+                            <outlet property="delegate" destination="1Go-Kl-a6t" id="ZBp-xb-msC"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Tables" id="q0t-Zp-51D">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="QDW-Rr-zXP"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ujz-Ms-sPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="851" y="252"/>
+        </scene>
+        <!--Join View Controller - Join-->
+        <scene sceneID="HoS-1x-9N5">
+            <objects>
+                <viewController id="2X1-Bd-9f7" customClass="JoinViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NRC-3a-b18">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hmu-5A-gsT">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="245" id="06h-9f-HmN"/>
+                                    <constraint firstAttribute="height" constant="300" id="z2X-hA-2dI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="Click here and on the table">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="joinDown:" destination="2X1-Bd-9f7" eventType="touchDown" id="YE9-sw-rdV"/>
+                                    <action selector="joinUp:" destination="2X1-Bd-9f7" eventType="touchUpInside" id="9KI-lO-mdo"/>
+                                    <action selector="joinUp:" destination="2X1-Bd-9f7" eventType="touchUpOutside" id="bKS-7e-lRV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hmu-5A-gsT" firstAttribute="top" secondItem="NRC-3a-b18" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Mb5-tU-mbB"/>
+                            <constraint firstItem="Hmu-5A-gsT" firstAttribute="centerX" secondItem="NRC-3a-b18" secondAttribute="centerX" type="default" id="QHu-iz-ypt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Join" id="lu9-m3-z9Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xcl-fK-ASa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1335" y="252"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="59X-2x-X2Z">
+            <objects>
+                <navigationController id="pea-dO-lKK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vrp-jJ-7UT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1Go-Kl-a6t" kind="relationship" relationship="rootViewController" id="2NC-XU-wpP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXy-6K-hbF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="252"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="FirstResponder">
+            <source key="sourceIdentifier" type="user"/>
+            <relationships>
+                <relationship kind="action" name="action"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

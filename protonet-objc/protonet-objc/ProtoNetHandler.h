@@ -16,9 +16,9 @@
     NSMutableDictionary* _commands;
 }
 
-- (void)install:(::google::protobuf::Message *)m id:(id)obj sel:(SEL)sel;
+- (void)install:(::google::protobuf::Message*)m id:(id)obj sel:(SEL)sel;
 
-- (void)process:(::google::protobuf::Message*) message;
+- (void)process:(::google::protobuf::Message*)message;
 
 - (void)disconnect;
 
