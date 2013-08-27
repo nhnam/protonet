@@ -14,10 +14,10 @@
 {
     if (self = [super init])
     {
-        [self install: new ::com::sqiwy::poker::HandRequest()];
-        [self install: new ::com::sqiwy::poker::HandRespond()];
-        [self install: new ::com::sqiwy::poker::SeatTakeRequest()];
-        [self install: new ::com::sqiwy::poker::SeatTakeRespond()];
+        [self install: new ::com::github::axet::protonet::test::HandRequest()];
+        [self install: new ::com::github::axet::protonet::test::HandRespond()];
+        [self install: new ::com::github::axet::protonet::test::SeatTakeRequest()];
+        [self install: new ::com::github::axet::protonet::test::SeatTakeRespond()];
     }
     return self;
 }
