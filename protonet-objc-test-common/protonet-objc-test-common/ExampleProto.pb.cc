@@ -17,8 +17,10 @@
 // @@protoc_insertion_point(includes)
 
 namespace com {
-namespace sqiwy {
-namespace poker {
+namespace github {
+namespace axet {
+namespace protonet {
+namespace test {
 
 namespace {
 
@@ -173,19 +175,20 @@ void protobuf_AddDesc_ExampleProto_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-    "\n\022ExampleProto.proto\022\017com.sqiwy.poker\"\254\002"
-    "\n\004Card\022)\n\004suit\030\001 \002(\0162\033.com.sqiwy.poker.C"
-    "ard.Suits\022)\n\004type\030\002 \002(\0162\033.com.sqiwy.poke"
-    "r.Card.Types\"8\n\005Suits\022\t\n\005CLUBS\020\000\022\014\n\010DIAM"
-    "ONDS\020\001\022\n\n\006HEARTS\020\002\022\n\n\006SPADES\020\003\"\223\001\n\005Types"
-    "\022\t\n\005CARD2\020\002\022\t\n\005CARD3\020\003\022\t\n\005CARD4\020\004\022\t\n\005CAR"
-    "D5\020\005\022\t\n\005CARD6\020\006\022\t\n\005CARD7\020\007\022\t\n\005CARD8\020\010\022\t\n"
-    "\005CARD9\020\t\022\n\n\006CARD10\020\n\022\010\n\004JACK\020\013\022\t\n\005QUEEN\020"
-    "\014\022\010\n\004KING\020\r\022\007\n\003ACE\020\016\"A\n\013HandRequest\022$\n\005c"
-    "ards\030\001 \003(\0132\025.com.sqiwy.poker.Card\022\014\n\004sho"
-    "w\030\002 \002(\010\"\r\n\013HandRespond\"\037\n\017SeatTakeReques"
-    "t\022\014\n\004take\030\001 \002(\010\" \n\017SeatTakeRespond\022\r\n\005ta"
-    "ken\030\001 \002(\010B\021\n\017com.sqiwy.poker", 508);
+    "\n\022ExampleProto.proto\022\035com.github.axet.pr"
+    "otonet.test\"\310\002\n\004Card\0227\n\004suit\030\001 \002(\0162).com"
+    ".github.axet.protonet.test.Card.Suits\0227\n"
+    "\004type\030\002 \002(\0162).com.github.axet.protonet.t"
+    "est.Card.Types\"8\n\005Suits\022\t\n\005CLUBS\020\000\022\014\n\010DI"
+    "AMONDS\020\001\022\n\n\006HEARTS\020\002\022\n\n\006SPADES\020\003\"\223\001\n\005Typ"
+    "es\022\t\n\005CARD2\020\002\022\t\n\005CARD3\020\003\022\t\n\005CARD4\020\004\022\t\n\005C"
+    "ARD5\020\005\022\t\n\005CARD6\020\006\022\t\n\005CARD7\020\007\022\t\n\005CARD8\020\010\022"
+    "\t\n\005CARD9\020\t\022\n\n\006CARD10\020\n\022\010\n\004JACK\020\013\022\t\n\005QUEE"
+    "N\020\014\022\010\n\004KING\020\r\022\007\n\003ACE\020\016\"O\n\013HandRequest\0222\n"
+    "\005cards\030\001 \003(\0132#.com.github.axet.protonet."
+    "test.Card\022\014\n\004show\030\002 \002(\010\"\r\n\013HandRespond\"\037"
+    "\n\017SeatTakeRequest\022\014\n\004take\030\001 \002(\010\" \n\017SeatT"
+    "akeRespond\022\r\n\005taken\030\001 \002(\010", 545);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "ExampleProto.proto", &protobuf_RegisterTypes);
   Card::default_instance_ = new Card();
@@ -349,7 +352,7 @@ bool Card::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   while ((tag = input->ReadTag()) != 0) {
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // required .com.sqiwy.poker.Card.Suits suit = 1;
+      // required .com.github.axet.protonet.test.Card.Suits suit = 1;
       case 1: {
         if (::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
             ::google::protobuf::internal::WireFormatLite::WIRETYPE_VARINT) {
@@ -357,8 +360,8 @@ bool Card::MergePartialFromCodedStream(
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
                  input, &value)));
-          if (::com::sqiwy::poker::Card_Suits_IsValid(value)) {
-            set_suit(static_cast< ::com::sqiwy::poker::Card_Suits >(value));
+          if (::com::github::axet::protonet::test::Card_Suits_IsValid(value)) {
+            set_suit(static_cast< ::com::github::axet::protonet::test::Card_Suits >(value));
           } else {
             mutable_unknown_fields()->AddVarint(1, value);
           }
@@ -369,7 +372,7 @@ bool Card::MergePartialFromCodedStream(
         break;
       }
 
-      // required .com.sqiwy.poker.Card.Types type = 2;
+      // required .com.github.axet.protonet.test.Card.Types type = 2;
       case 2: {
         if (::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
             ::google::protobuf::internal::WireFormatLite::WIRETYPE_VARINT) {
@@ -378,8 +381,8 @@ bool Card::MergePartialFromCodedStream(
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
                  input, &value)));
-          if (::com::sqiwy::poker::Card_Types_IsValid(value)) {
-            set_type(static_cast< ::com::sqiwy::poker::Card_Types >(value));
+          if (::com::github::axet::protonet::test::Card_Types_IsValid(value)) {
+            set_type(static_cast< ::com::github::axet::protonet::test::Card_Types >(value));
           } else {
             mutable_unknown_fields()->AddVarint(2, value);
           }
@@ -408,13 +411,13 @@ bool Card::MergePartialFromCodedStream(
 
 void Card::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // required .com.sqiwy.poker.Card.Suits suit = 1;
+  // required .com.github.axet.protonet.test.Card.Suits suit = 1;
   if (has_suit()) {
     ::google::protobuf::internal::WireFormatLite::WriteEnum(
       1, this->suit(), output);
   }
 
-  // required .com.sqiwy.poker.Card.Types type = 2;
+  // required .com.github.axet.protonet.test.Card.Types type = 2;
   if (has_type()) {
     ::google::protobuf::internal::WireFormatLite::WriteEnum(
       2, this->type(), output);
@@ -428,13 +431,13 @@ void Card::SerializeWithCachedSizes(
 
 ::google::protobuf::uint8* Card::SerializeWithCachedSizesToArray(
     ::google::protobuf::uint8* target) const {
-  // required .com.sqiwy.poker.Card.Suits suit = 1;
+  // required .com.github.axet.protonet.test.Card.Suits suit = 1;
   if (has_suit()) {
     target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
       1, this->suit(), target);
   }
 
-  // required .com.sqiwy.poker.Card.Types type = 2;
+  // required .com.github.axet.protonet.test.Card.Types type = 2;
   if (has_type()) {
     target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
       2, this->type(), target);
@@ -451,13 +454,13 @@ int Card::ByteSize() const {
   int total_size = 0;
 
   if (_has_bits_[0 / 32] & (0xffu << (0 % 32))) {
-    // required .com.sqiwy.poker.Card.Suits suit = 1;
+    // required .com.github.axet.protonet.test.Card.Suits suit = 1;
     if (has_suit()) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::EnumSize(this->suit());
     }
 
-    // required .com.sqiwy.poker.Card.Types type = 2;
+    // required .com.github.axet.protonet.test.Card.Types type = 2;
     if (has_type()) {
       total_size += 1 +
         ::google::protobuf::internal::WireFormatLite::EnumSize(this->type());
@@ -609,7 +612,7 @@ bool HandRequest::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   while ((tag = input->ReadTag()) != 0) {
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // repeated .com.sqiwy.poker.Card cards = 1;
+      // repeated .com.github.axet.protonet.test.Card cards = 1;
       case 1: {
         if (::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
             ::google::protobuf::internal::WireFormatLite::WIRETYPE_LENGTH_DELIMITED) {
@@ -658,7 +661,7 @@ bool HandRequest::MergePartialFromCodedStream(
 
 void HandRequest::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // repeated .com.sqiwy.poker.Card cards = 1;
+  // repeated .com.github.axet.protonet.test.Card cards = 1;
   for (int i = 0; i < this->cards_size(); i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
       1, this->cards(i), output);
@@ -677,7 +680,7 @@ void HandRequest::SerializeWithCachedSizes(
 
 ::google::protobuf::uint8* HandRequest::SerializeWithCachedSizesToArray(
     ::google::protobuf::uint8* target) const {
-  // repeated .com.sqiwy.poker.Card cards = 1;
+  // repeated .com.github.axet.protonet.test.Card cards = 1;
   for (int i = 0; i < this->cards_size(); i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       WriteMessageNoVirtualToArray(
@@ -706,7 +709,7 @@ int HandRequest::ByteSize() const {
     }
 
   }
-  // repeated .com.sqiwy.poker.Card cards = 1;
+  // repeated .com.github.axet.protonet.test.Card cards = 1;
   total_size += 1 * this->cards_size();
   for (int i = 0; i < this->cards_size(); i++) {
     total_size +=
@@ -1360,8 +1363,10 @@ void SeatTakeRespond::Swap(SeatTakeRespond* other) {
 
 // @@protoc_insertion_point(namespace_scope)
 
-}  // namespace poker
-}  // namespace sqiwy
+}  // namespace test
+}  // namespace protonet
+}  // namespace axet
+}  // namespace github
 }  // namespace com
 
 // @@protoc_insertion_point(global_scope)

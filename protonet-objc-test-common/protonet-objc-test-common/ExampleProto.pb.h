@@ -28,8 +28,10 @@
 // @@protoc_insertion_point(includes)
 
 namespace com {
-namespace sqiwy {
-namespace poker {
+namespace github {
+namespace axet {
+namespace protonet {
+namespace test {
 
 // Internal implementation detail -- do not call these.
 void  protobuf_AddDesc_ExampleProto_2eproto();
@@ -210,21 +212,21 @@ class Card : public ::google::protobuf::Message {
 
   // accessors -------------------------------------------------------
 
-  // required .com.sqiwy.poker.Card.Suits suit = 1;
+  // required .com.github.axet.protonet.test.Card.Suits suit = 1;
   inline bool has_suit() const;
   inline void clear_suit();
   static const int kSuitFieldNumber = 1;
-  inline ::com::sqiwy::poker::Card_Suits suit() const;
-  inline void set_suit(::com::sqiwy::poker::Card_Suits value);
+  inline ::com::github::axet::protonet::test::Card_Suits suit() const;
+  inline void set_suit(::com::github::axet::protonet::test::Card_Suits value);
 
-  // required .com.sqiwy.poker.Card.Types type = 2;
+  // required .com.github.axet.protonet.test.Card.Types type = 2;
   inline bool has_type() const;
   inline void clear_type();
   static const int kTypeFieldNumber = 2;
-  inline ::com::sqiwy::poker::Card_Types type() const;
-  inline void set_type(::com::sqiwy::poker::Card_Types value);
+  inline ::com::github::axet::protonet::test::Card_Types type() const;
+  inline void set_type(::com::github::axet::protonet::test::Card_Types value);
 
-  // @@protoc_insertion_point(class_scope:com.sqiwy.poker.Card)
+  // @@protoc_insertion_point(class_scope:com.github.axet.protonet.test.Card)
  private:
   inline void set_has_suit();
   inline void clear_has_suit();
@@ -302,16 +304,16 @@ class HandRequest : public ::google::protobuf::Message {
 
   // accessors -------------------------------------------------------
 
-  // repeated .com.sqiwy.poker.Card cards = 1;
+  // repeated .com.github.axet.protonet.test.Card cards = 1;
   inline int cards_size() const;
   inline void clear_cards();
   static const int kCardsFieldNumber = 1;
-  inline const ::com::sqiwy::poker::Card& cards(int index) const;
-  inline ::com::sqiwy::poker::Card* mutable_cards(int index);
-  inline ::com::sqiwy::poker::Card* add_cards();
-  inline const ::google::protobuf::RepeatedPtrField< ::com::sqiwy::poker::Card >&
+  inline const ::com::github::axet::protonet::test::Card& cards(int index) const;
+  inline ::com::github::axet::protonet::test::Card* mutable_cards(int index);
+  inline ::com::github::axet::protonet::test::Card* add_cards();
+  inline const ::google::protobuf::RepeatedPtrField< ::com::github::axet::protonet::test::Card >&
       cards() const;
-  inline ::google::protobuf::RepeatedPtrField< ::com::sqiwy::poker::Card >*
+  inline ::google::protobuf::RepeatedPtrField< ::com::github::axet::protonet::test::Card >*
       mutable_cards();
 
   // required bool show = 2;
@@ -321,14 +323,14 @@ class HandRequest : public ::google::protobuf::Message {
   inline bool show() const;
   inline void set_show(bool value);
 
-  // @@protoc_insertion_point(class_scope:com.sqiwy.poker.HandRequest)
+  // @@protoc_insertion_point(class_scope:com.github.axet.protonet.test.HandRequest)
  private:
   inline void set_has_show();
   inline void clear_has_show();
 
   ::google::protobuf::UnknownFieldSet _unknown_fields_;
 
-  ::google::protobuf::RepeatedPtrField< ::com::sqiwy::poker::Card > cards_;
+  ::google::protobuf::RepeatedPtrField< ::com::github::axet::protonet::test::Card > cards_;
   bool show_;
 
   mutable int _cached_size_;
@@ -397,7 +399,7 @@ class HandRespond : public ::google::protobuf::Message {
 
   // accessors -------------------------------------------------------
 
-  // @@protoc_insertion_point(class_scope:com.sqiwy.poker.HandRespond)
+  // @@protoc_insertion_point(class_scope:com.github.axet.protonet.test.HandRespond)
  private:
 
   ::google::protobuf::UnknownFieldSet _unknown_fields_;
@@ -476,7 +478,7 @@ class SeatTakeRequest : public ::google::protobuf::Message {
   inline bool take() const;
   inline void set_take(bool value);
 
-  // @@protoc_insertion_point(class_scope:com.sqiwy.poker.SeatTakeRequest)
+  // @@protoc_insertion_point(class_scope:com.github.axet.protonet.test.SeatTakeRequest)
  private:
   inline void set_has_take();
   inline void clear_has_take();
@@ -558,7 +560,7 @@ class SeatTakeRespond : public ::google::protobuf::Message {
   inline bool taken() const;
   inline void set_taken(bool value);
 
-  // @@protoc_insertion_point(class_scope:com.sqiwy.poker.SeatTakeRespond)
+  // @@protoc_insertion_point(class_scope:com.github.axet.protonet.test.SeatTakeRespond)
  private:
   inline void set_has_taken();
   inline void clear_has_taken();
@@ -584,7 +586,7 @@ class SeatTakeRespond : public ::google::protobuf::Message {
 
 // Card
 
-// required .com.sqiwy.poker.Card.Suits suit = 1;
+// required .com.github.axet.protonet.test.Card.Suits suit = 1;
 inline bool Card::has_suit() const {
   return (_has_bits_[0] & 0x00000001u) != 0;
 }
@@ -598,16 +600,16 @@ inline void Card::clear_suit() {
   suit_ = 0;
   clear_has_suit();
 }
-inline ::com::sqiwy::poker::Card_Suits Card::suit() const {
-  return static_cast< ::com::sqiwy::poker::Card_Suits >(suit_);
+inline ::com::github::axet::protonet::test::Card_Suits Card::suit() const {
+  return static_cast< ::com::github::axet::protonet::test::Card_Suits >(suit_);
 }
-inline void Card::set_suit(::com::sqiwy::poker::Card_Suits value) {
-  assert(::com::sqiwy::poker::Card_Suits_IsValid(value));
+inline void Card::set_suit(::com::github::axet::protonet::test::Card_Suits value) {
+  assert(::com::github::axet::protonet::test::Card_Suits_IsValid(value));
   set_has_suit();
   suit_ = value;
 }
 
-// required .com.sqiwy.poker.Card.Types type = 2;
+// required .com.github.axet.protonet.test.Card.Types type = 2;
 inline bool Card::has_type() const {
   return (_has_bits_[0] & 0x00000002u) != 0;
 }
@@ -621,11 +623,11 @@ inline void Card::clear_type() {
   type_ = 2;
   clear_has_type();
 }
-inline ::com::sqiwy::poker::Card_Types Card::type() const {
-  return static_cast< ::com::sqiwy::poker::Card_Types >(type_);
+inline ::com::github::axet::protonet::test::Card_Types Card::type() const {
+  return static_cast< ::com::github::axet::protonet::test::Card_Types >(type_);
 }
-inline void Card::set_type(::com::sqiwy::poker::Card_Types value) {
-  assert(::com::sqiwy::poker::Card_Types_IsValid(value));
+inline void Card::set_type(::com::github::axet::protonet::test::Card_Types value) {
+  assert(::com::github::axet::protonet::test::Card_Types_IsValid(value));
   set_has_type();
   type_ = value;
 }
@@ -634,27 +636,27 @@ inline void Card::set_type(::com::sqiwy::poker::Card_Types value) {
 
 // HandRequest
 
-// repeated .com.sqiwy.poker.Card cards = 1;
+// repeated .com.github.axet.protonet.test.Card cards = 1;
 inline int HandRequest::cards_size() const {
   return cards_.size();
 }
 inline void HandRequest::clear_cards() {
   cards_.Clear();
 }
-inline const ::com::sqiwy::poker::Card& HandRequest::cards(int index) const {
+inline const ::com::github::axet::protonet::test::Card& HandRequest::cards(int index) const {
   return cards_.Get(index);
 }
-inline ::com::sqiwy::poker::Card* HandRequest::mutable_cards(int index) {
+inline ::com::github::axet::protonet::test::Card* HandRequest::mutable_cards(int index) {
   return cards_.Mutable(index);
 }
-inline ::com::sqiwy::poker::Card* HandRequest::add_cards() {
+inline ::com::github::axet::protonet::test::Card* HandRequest::add_cards() {
   return cards_.Add();
 }
-inline const ::google::protobuf::RepeatedPtrField< ::com::sqiwy::poker::Card >&
+inline const ::google::protobuf::RepeatedPtrField< ::com::github::axet::protonet::test::Card >&
 HandRequest::cards() const {
   return cards_;
 }
-inline ::google::protobuf::RepeatedPtrField< ::com::sqiwy::poker::Card >*
+inline ::google::protobuf::RepeatedPtrField< ::com::github::axet::protonet::test::Card >*
 HandRequest::mutable_cards() {
   return &cards_;
 }
@@ -740,8 +742,10 @@ inline void SeatTakeRespond::set_taken(bool value) {
 
 // @@protoc_insertion_point(namespace_scope)
 
-}  // namespace poker
-}  // namespace sqiwy
+}  // namespace test
+}  // namespace protonet
+}  // namespace axet
+}  // namespace github
 }  // namespace com
 
 #ifndef SWIG
@@ -749,12 +753,12 @@ namespace google {
 namespace protobuf {
 
 template <>
-inline const EnumDescriptor* GetEnumDescriptor< ::com::sqiwy::poker::Card_Suits>() {
-  return ::com::sqiwy::poker::Card_Suits_descriptor();
+inline const EnumDescriptor* GetEnumDescriptor< ::com::github::axet::protonet::test::Card_Suits>() {
+  return ::com::github::axet::protonet::test::Card_Suits_descriptor();
 }
 template <>
-inline const EnumDescriptor* GetEnumDescriptor< ::com::sqiwy::poker::Card_Types>() {
-  return ::com::sqiwy::poker::Card_Types_descriptor();
+inline const EnumDescriptor* GetEnumDescriptor< ::com::github::axet::protonet::test::Card_Types>() {
+  return ::com::github::axet::protonet::test::Card_Types_descriptor();
 }
 
 }  // namespace google
