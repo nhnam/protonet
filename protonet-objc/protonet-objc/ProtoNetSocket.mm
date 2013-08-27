@@ -35,6 +35,16 @@
     [super dealloc];
 }
 
+- (void)addListener:(id<ProtoNetSocketDelegate>) delegate
+{
+    [_listneners addObject: delegate];
+}
+
+- (void)removeListener:(id<ProtoNetSocketDelegate>) delegate
+{
+    [_listneners removeObject: delegate];
+}
+
 - (void) install:(::google::protobuf::Message *)m
 {
     [_commands setObject:[NSValue valueWithPointer:m] forKey: [NSNumber numberWithInt:m->GetDescriptor()->index()]];
